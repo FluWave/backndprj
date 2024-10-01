@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TechZone.DataAccess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5d7c9faec86163c8a742e3d3e79462246c0ba252")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3951ea9d066d0d031bd01a6856258b6ed8dcf957")]
 [assembly: System.Reflection.AssemblyProductAttribute("TechZone.DataAccess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TechZone.DataAccess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
