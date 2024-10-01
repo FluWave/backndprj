@@ -1,0 +1,138 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "TechZone.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TechZone.Entities": "1.0.0",
+          "TechZone.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TechZone.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechZone.DataAccess.dll": {}
+        }
+      },
+      "TechZone.Entities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "TechZone.Shared": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/TechZone.Entities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechZone.Entities.dll": {}
+        }
+      },
+      "TechZone.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/TechZone.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/TechZone.Shared.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "TechZone.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../TechZone.DataAccess/TechZone.DataAccess.csproj",
+      "msbuildProject": "../TechZone.DataAccess/TechZone.DataAccess.csproj"
+    },
+    "TechZone.Entities/1.0.0": {
+      "type": "project",
+      "path": "../TechZone.Entities/TechZone.Entities.csproj",
+      "msbuildProject": "../TechZone.Entities/TechZone.Entities.csproj"
+    },
+    "TechZone.Shared/1.0.0": {
+      "type": "project",
+      "path": "../TechZone.Shared/TechZone.Shared.csproj",
+      "msbuildProject": "../TechZone.Shared/TechZone.Shared.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "TechZone.DataAccess >= 1.0.0",
+      "TechZone.Shared >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\mirac\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "G:\\Github\\Proje\\backend\\TechZone\\TechZone.Core\\TechZone.Core.csproj",
+      "projectName": "TechZone.Core",
+      "projectPath": "G:\\Github\\Proje\\backend\\TechZone\\TechZone.Core\\TechZone.Core.csproj",
+      "packagesPath": "C:\\Users\\mirac\\.nuget\\packages\\",
+      "outputPath": "G:\\Github\\Proje\\backend\\TechZone\\TechZone.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\mirac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {
+            "G:\\Github\\Proje\\backend\\TechZone\\TechZone.DataAccess\\TechZone.DataAccess.csproj": {
+              "projectPath": "G:\\Github\\Proje\\backend\\TechZone\\TechZone.DataAccess\\TechZone.DataAccess.csproj"
+            },
+            "G:\\Github\\Proje\\backend\\TechZone\\TechZone.Shared\\TechZone.Shared.csproj": {
+              "projectPath": "G:\\Github\\Proje\\backend\\TechZone\\TechZone.Shared\\TechZone.Shared.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
